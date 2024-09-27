@@ -25,5 +25,8 @@ elif selection == 'I':
     voltage = float(input("\nEnter the value for Voltage(V): "))
     resistance = float(input("Enter the value for Resistance(R): "))
 
+    if resistance == 0:
+        print("Invalid input. Resistance cannot be zero. Please try again.")
+        
 # If the user chooses to calculate Resistance (R)
 # Handling invalid user input
