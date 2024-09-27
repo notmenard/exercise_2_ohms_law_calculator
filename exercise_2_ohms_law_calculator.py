@@ -27,6 +27,8 @@ elif selection == 'I':
 
     if resistance == 0:
         print("Invalid input. Resistance cannot be zero. Please try again.")
-        
+    else:
+        current = voltage / resistance
+        print(f"The value for current: {current} amperes")
 # If the user chooses to calculate Resistance (R)
 # Handling invalid user input
