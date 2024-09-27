@@ -16,9 +16,9 @@ if selection == 'V':
     voltage = current * resistance
 
     if voltage == '1':
-        print(f"\nThe value of voltage: {voltage} Volt")
+        print(f"\nThe value of Voltage(V): {voltage} volt")
     else:
-        print(f"\nThe value of voltage: {voltage} Volts")
+        print(f"\nThe value of Voltage(V): {voltage} volts")
 
 # If the user chooses to calculate Current (I)
 elif selection == 'I':
@@ -29,7 +29,7 @@ elif selection == 'I':
         print("Invalid input. Resistance cannot be zero. Please try again.")
     else:
         current = voltage / resistance
-        print(f"The value for current: {current} amperes")
+        print(f"The value for Current(I): {current} amperes")
 
 # If the user chooses to calculate Resistance (R)
 elif selection == 'R':
@@ -40,7 +40,7 @@ elif selection == 'R':
         print("Invalid input. Current cannot be zero. Please try again.")
     else:
         resistance = voltage / current
-        print(f"The value for resistance: {resistance} ohms")
+        print(f"The value for Resistance(R): {resistance} ohms")
 
 # Handling invalid user input
 else:
