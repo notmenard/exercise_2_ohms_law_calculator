@@ -38,4 +38,8 @@ elif selection == 'R':
 
     if current == 0:
         print("Invalid input. Current cannot be zero. Please try again.")
+    else:
+        resistance = voltage / current
+        print(f"The value for resistance: {resistance} ohms")
+        
 # Handling invalid user input
