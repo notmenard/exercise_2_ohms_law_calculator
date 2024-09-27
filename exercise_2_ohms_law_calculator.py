@@ -11,15 +11,19 @@ selection = str(input("\n Please select what you want to calculate (V, I, or R):
 
 # If the user chooses to calculate Voltage (V)
 if selection == 'V':
-    current = float(input('\nEnter the value for Current(I): '))
-    resistance = float(input('\nEnter the value for Resistance(R): '))
+    current = float(input("\nEnter the value for Current(I): "))
+    resistance = float(input("\nEnter the value for Resistance(R): "))
     voltage = current * resistance
 
     if voltage == '1':
-        print(f'\nThe value of voltage: {voltage} Volt')
+        print(f"\nThe value of voltage: {voltage} Volt")
     else:
-        print(f'\nThe value of voltage: {voltage} Volts')
+        print(f"\nThe value of voltage: {voltage} Volts")
 
 # If the user chooses to calculate Current (I)
+elif selection == 'I':
+    voltage = float(input("\nEnter the value for Voltage(V): "))
+    resistance = float(input("Enter the value for Resistance(R): "))
+
 # If the user chooses to calculate Resistance (R)
 # Handling invalid user input
