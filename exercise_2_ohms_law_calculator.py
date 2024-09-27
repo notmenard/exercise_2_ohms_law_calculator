@@ -35,5 +35,7 @@ elif selection == 'I':
 elif selection == 'R':
     voltage = float(input("\nEnter the value for Voltage(V): "))
     current = float(input("Enter the value for Current(I): "))
-    
+
+    if current == 0:
+        print("Invalid input. Current cannot be zero. Please try again.")
 # Handling invalid user input
