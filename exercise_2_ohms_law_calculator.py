@@ -30,5 +30,10 @@ elif selection == 'I':
     else:
         current = voltage / resistance
         print(f"The value for current: {current} amperes")
+
 # If the user chooses to calculate Resistance (R)
+elif selection == 'R':
+    voltage = float(input("\nEnter the value for Voltage(V): "))
+    current = float(input("Enter the value for Current(I): "))
+    
 # Handling invalid user input
