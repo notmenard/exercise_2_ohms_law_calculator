@@ -1,4 +1,6 @@
 # Add introduction header centered with dashes
+print(" Ohm's Law Calculator ".center(50, "-"))
+
 # Display calculation options for user.
 # Taking user's selection for what they want to calculate
 # If the user chooses to calculate Voltage (V)
