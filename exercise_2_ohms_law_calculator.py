@@ -41,5 +41,7 @@ elif selection == 'R':
     else:
         resistance = voltage / current
         print(f"The value for resistance: {resistance} ohms")
-        
+
 # Handling invalid user input
+else:
+    print("Invalid input. Please enter either (V, I, or R).")
